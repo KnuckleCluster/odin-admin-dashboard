@@ -206,13 +206,14 @@ body{
 }
 
 .trending-content{
-
+    display: flex;
+    flex-direction: column;
     height: 250px;
     width: 250px;
     border-radius: 10px;
     background-color: white;
-    justify-content: center;
-    align-items: center;
+    
+
 }
 
 .newp {
@@ -229,4 +230,17 @@ body{
     border-radius: 100%;
     overflow: hidden;
     background-color: rgb(126, 244, 105);
+}
+
+
+
+.user-trend{
+    margin-left: 25px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.user-trend img{
+    margin-right: 10px;
 }
